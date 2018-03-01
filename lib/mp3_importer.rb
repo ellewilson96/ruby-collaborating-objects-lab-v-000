@@ -15,4 +15,3 @@ end
     @files.collect {|f| Song.new_by_filename(f)}
 end
 end
-end
