@@ -36,7 +36,8 @@ class Artist
     self.new(name).tap {|artist| artist.save}
   end
 
-def print_songs
-  puts self.songs
-end
+  def print_songs
+    songs.each {|song| puts song.name}
+  end
+  
 end
